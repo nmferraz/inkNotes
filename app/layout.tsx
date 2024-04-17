@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "inkNotes",
-  description: "A real cool notes app. Just like notion, but better than Notion.",
+  description:
+    "A real cool notes app. Just like notion, but better than Notion.",
   icons: {
     icon: [
       {
@@ -18,9 +19,9 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: dark)",
         url: "/logo-dark.svg",
         href: "/logo-dark.svg",
-      }
-    ]
-  }
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
