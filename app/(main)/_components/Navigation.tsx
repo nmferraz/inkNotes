@@ -1,0 +1,9 @@
+"use Client";
+
+export const Navigation = () => {
+    return (
+        <div>
+            Navigation
+        </div>
+    )
+}
