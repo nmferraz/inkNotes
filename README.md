@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## inkNotes
 
-## Getting Started
+This is a real-time note-taking application with rich features inspired by Notion. It's built with Next.js (App Router), Tailwind CSS, Shadcn Ui, Convex, EdgeStore, and Clerck, making it accessible and powerful.
 
-First, run the development server:
+### Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Real-time database:**  Changes to your notes are reflected instantly across all devices.
+* **Notion-style editor:** Enjoy a familiar and powerful editing experience.
+* **Light and Dark mode:**  Choose the theme that suits your preference.
+* **Infinite children documents:**  Organize your notes with unlimited nesting capabilities.
+* **Trash can & soft delete:** Recover accidentally deleted notes with ease.
+* **Authentication:**  Securely access your notes with a user account.
+* **File upload, deletion, and replacement:**  Embed rich media seamlessly into your notes.
+* **Real-time document icons:**  Icons dynamically update to reflect your note content.
+* **Expandable and collapsible sidebar:**  Optimize your workspace for a streamlined workflow.
+* **Full mobile responsiveness:**  Access your notes from any device.
+* **Publish notes to the web:**  Share specific notes publicly with a unique URL.
+* **Landing page:**  Provides a welcoming introduction to your note-taking space.
+* **Cover images for documents:**  Personalize your notes with visual flair.
+* **Recover deleted files:**  Restore previous versions of uploaded files. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application is available for public use! 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Visit [https://inknotes.nmferraz.space/](https://inknotes.nmferraz.space/) to sign up and start taking notes.
+2. Explore the intuitive interface and powerful features.
+3. Organize your knowledge with infinite nesting and real-time collaboration (if applicable). 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Next.js (App Router) - Next.js documentation: [https://nextjs.org/](https://nextjs.org/)
+* Tailwind CSS - Tailwind CSS documentation: [https://tailwindcss.com/](https://tailwindcss.com/)
+* Shadcn UI - Shadcn UI documentation: [https://ui.shadcn.com/docs](https://ui.shadcn.com/docs)
+* Convex - Convex documentation: [https://www.convex.dev/](https://www.convex.dev/)
+* EdgeStore - EdgeStore documentation: [https://edgestore.dev/docs/quick-start](https://edgestore.dev/docs/quick-start)
+* Clerck - Clerck documentation: [https://clerk.dev/](https://clerk.dev/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Feel free to reach out for any feedback or feature requests!**
